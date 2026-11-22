@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it using these metadata."
+type: software
+title: "ACLDrift: Permission drift detection for RAG indexes"
+abstract: >-
+  ACLDrift compares every chunk in a vector index with the access list of its
+  source document in systems such as Confluence, Google Drive, SharePoint and
+  GitHub, and reports chunks that more people can retrieve than could read the
+  original.
+authors:
+  - family-names: Sadayamuthu
+    given-names: Karthikeyan
+    orcid: "https://orcid.org/0009-0008-3539-6048"
+license: Apache-2.0
+repository-code: "https://github.com/sadayamuthu/acldrift"
+url: "https://openastra.org"
+keywords:
+  - RAG
+  - access control
+  - vector database
+  - data security
+  - LLM
